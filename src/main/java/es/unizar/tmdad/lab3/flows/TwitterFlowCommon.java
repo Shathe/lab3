@@ -50,7 +50,7 @@ abstract public class TwitterFlowCommon {
 
 	private GenericTransformer<Tweet, TargetedTweet> identifyTopics() {
 		return t -> new TargetedTweet(new MyTweet(t), tls.getQueries().stream()
-				.filter(x -> t.getText().contains(x))
+				.filter(x -> {return t.getText().contains(x);})
 				.collect(Collectors.toList()));
 	}
 
