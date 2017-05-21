@@ -1,0 +1,6 @@
+twitter.consumerKey=<<ask Twitter for a key>>
+twitter.consumerSecret=<<ask Twitter for a key>>
+twitter.accessToken=<<ask Twitter for a key>>
+twitter.accessTokenSecret=<<ask Twitter for a key>>
+spring.profiles.active=fanaout
+spring.rabbitmq.addresses=amqp://kmzrhisv:vWB9WsYyVR-IkEHhEpCN9XCuAp-NI3_3@penguin.rmq.cloudamqp.com/kmzrhisv
